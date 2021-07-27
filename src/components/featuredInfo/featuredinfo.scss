@@ -1,0 +1,43 @@
+.featured-sec {
+    display: flex;
+    flex-wrap: wrap;
+
+    .featured-card {
+        flex: 1;
+        box-shadow: 0 0 20px -5px rgb(0 0 0 / 10%);
+        ;
+        -webkit-box-shadow: 0 0 20px -5px rgb(0 0 0 / 10%);
+        ;
+        -moz-box-shadow: 0 0 20px -5px rgb(0 0 0 / 10%);
+        ;
+        margin: 0 15px 15px;
+        padding: 30px 20px;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: all 0.3s linear;
+
+        &:hover {
+            transform: scale(1.02);
+        }
+
+        .amount {
+            font-size: 2rem;
+            font-weight: 600;
+            margin: 15px 0;
+            display: inline-block;
+        }
+
+        .percent {
+            align-items: center;
+            display: inline-flex;
+            margin-left: 12%;
+            color: #fb0000;
+        }
+
+        p {
+            font-size: 0.9rem;
+            color: #4e4e4e;
+            font-weight: 100;
+        }
+    }
+}

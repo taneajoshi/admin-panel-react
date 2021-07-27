@@ -20,10 +20,12 @@ a {
     justify-content: center;
 }
 
-.container {
+main {
     display: flex;
 }
 
-.page-content {
-    flex: 5;
+.container {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }

@@ -1,5 +1,17 @@
+h1 {
+    font-size: $h1-font-size;
+    text-transform: capitalize;
+    color: $primary;
+}
+
 h2 {
     font-size: $h2-font-size;
     text-transform: uppercase;
     color: #fff;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: $h3-font-size;
+    font-weight: 500;
 }
