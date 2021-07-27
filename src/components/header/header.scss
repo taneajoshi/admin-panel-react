@@ -1,0 +1,63 @@
+@import '../../scss/variables';
+
+header {
+    position: sticky;
+    top:0;
+    z-index: 999;
+    background-color: #fff;
+    padding: 15px 30px;
+
+    .brand-logo {
+        font-size: 1.5rem;
+        position: relative;
+        top: 10%;
+        span {
+            font-size: 1.8rem;
+            color: $primary;
+            font-weight: 700;
+            display: block;
+            line-height: 0;
+        }
+    }
+
+   .header-wrapper {
+       display: flex;
+       justify-content: space-between;
+   }
+
+   .icons-area {
+      ul li{
+          display: inline-block;
+          margin: 0 8px;
+      }
+
+      a {
+          color: $primary;
+      }
+
+      .contains-badge {
+          position: relative;
+          span {
+            position: absolute;
+            top: -1rem;
+            left: 1rem;
+            font-size: 12px;
+            text-align: center;
+            background-color: $primary;
+            color: #fff;
+            border-radius: 50%;
+            height: 18px;
+            width: 18px;
+            line-height: 18px;
+          }
+      }
+
+      .profile-img {
+          border-radius: 50%;
+          img {
+              height: 50px;
+              width: 50px;
+          }
+      }
+   }
+}
